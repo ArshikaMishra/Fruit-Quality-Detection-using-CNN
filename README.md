@@ -1,61 +1,51 @@
-# Fruit-Quality-Detection-using-CNN
-Fruit Quality Detection using CNN
-A web application that classifies and assesses the quality of fruits based on image analysis using deep learning. This tool evaluates ripeness and detects defects in fruits, providing a comprehensive report on each fruit's condition. The project uses computer vision and deep learning models to automate fruit quality checks for apples, oranges, and bananas.
-
-Features
-Fruit Classification: Identifies the type of fruit (apple, orange, or banana) in the uploaded image.
-Quality Detection: Detects ripeness and potential defects in the fruit.
-Deep Learning Models: Utilizes YOLOv5, DenseNet, and VGG16 for image classification and quality assessment.
-User-Friendly Interface: Simple, intuitive design for easy image uploads and result visualization.
-Data Storage and Sharing: Enables users to save and share assessment results.
-Technology Stack
-Frontend: HTML, CSS, JavaScript, Streamlit (for easy deployment of the app).
-Backend: Python (TensorFlow, OpenCV) for deep learning and image processing.
-Models: YOLOv5, DenseNet, VGG16 for fruit classification and quality analysis.
-Setup and Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/fruit-quality-detection.git
-cd fruit-quality-detection
-Install Required Packages: Install dependencies listed in requirements.txt.
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application: Start the Streamlit app.
-
-bash
-Copy code
-streamlit run app.py
-Usage
-Upload an image of a fruit (apple, orange, or banana).
-Click on the "Analyze" button to classify the fruit type and assess its quality.
-View the results, which include the fruit type, ripeness level, and any detected defects.
-Models Used
-YOLOv5: For object detection to locate and classify the fruit in the image.
-DenseNet and VGG16: Used for quality assessment, including ripeness and defect detection.
-Demo
-Here's a quick demo showing how to use the Fruit Classification and Quality Detection tool:
 
 
-Contributing
-Fork the repository.
-Create your feature branch: git checkout -b feature-name
-Commit your changes: git commit -m 'Add feature'
-Push to the branch: git push origin feature-name
-Open a pull request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+# Fruit Classification and Quality Detection 
+## Description
+A web application built with computer vision and deep learning to classify fruits (apple, orange, banana) and assess quality based on ripeness and defect detection through image analysis. This project is intended to automate fruit quality checks, providing detailed evaluation results.
 
-Contact
-For any questions or suggestions, please contact:
+## Features
+- **Fruit Classification**: Detects and classifies fruit types from images.
+- **Quality Assessment**: Evaluates ripeness levels and identifies any defects.
+- **Model Integration**: Uses **YOLOv5**, **DenseNet**, and **VGG16** for robust analysis.
+- **User-Friendly Interface**: Simple and interactive, allowing easy uploads and result visualization.
 
-Arshika Mishra
-Email: arshikamishra1205@gmail.com
-This project is designed to streamline and automate the fruit quality assessment process, enhancing accuracy and reliability compared to manual inspection methods.
+## Technology Stack
+- **Frontend**: HTML, CSS, JavaScript, Streamlit for deployment.
+- **Backend**: Python (using TensorFlow, OpenCV).
+- **Models**: YOLOv5, DenseNet, VGG16.
 
+## Installation
+1. Clone the repository to your local machine.
+    ```bash
+    git clone <repo-link>
+    cd <repo-folder>
+    ```
+2. Install all dependencies from the requirements file.
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the app locally.
+    ```bash
+    streamlit run app.py
+    ```
+
+## Usage
+1. Upload an image of a fruit.
+2. Click "Analyze" to classify and assess the fruit's quality.
+3. View results showing fruit type, ripeness level, and any detected defects.
+
+## Demo
+> Add a GIF or image that illustrates the tool's functionality.
+
+## Contributing
+To contribute to the project:
+1. Fork the repo.
+2. Create a new feature branch.
+3. Commit changes and open a pull request.
+
+## License
+Licensed under the MIT License. See `LICENSE` for more details.
 
 
 
